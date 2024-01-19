@@ -7,13 +7,19 @@
     <title>Lampung's Mountain Majesty: Exploring Nature's Paradise</title>
 
     <style>
+        
 
         body{
             margin: 0;
+            background-image: url('https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/12/Gunung-Anak-Krakatau.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; /*Gambar Background Nempel saat diScroll*/
+            backdrop-filter: blur(5px); /* Blur effect */
         }
-
+        
         header{
-            background-color: brown;
+            background-color: rgb(217, 242, 244);
             min-height: 100px;
             display: flex;
             position: sticky;
@@ -31,6 +37,10 @@
         h1 {
             margin-left: 20px;
             margin-top: 50px;
+            font-size: 30px;
+            text-align:justify;
+            /* text-transform: capitalize; */
+            
         }
         .gunung1 , .gunung2 , .gunung3 , .gunung4 , .gunung5{
             width: 640px;
@@ -76,7 +86,7 @@
         </header>
 
         <!-- area content-->
-        <section>
+        <section class="background">
             <!-- Gunung Pesagi -->
             <section>
                 <img src="gunung/pesagi.jpg" alt="Gunung Pesagi" class="gunung1 zoom-effect">
