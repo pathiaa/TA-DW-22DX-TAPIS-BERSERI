@@ -44,6 +44,16 @@
             text-align: center;
         }
 
+        /* Membuat Transisi Gambar Gunung */
+        .zoom-effect {
+            transition: transform 0.4s ease; /*Efek Transisi untuk perubahan transformasi*/
+        }
+
+        .zoom-effect:hover {
+            transform: scale(1.1); /*Skala gambar saat kursor mendekat(zoom)*/
+        }
+
+
     </style>
 
 </head>
@@ -69,25 +79,25 @@
         <section>
             <!-- Gunung Pesagi -->
             <section>
-                <img src="gunung/pesagi.jpg" alt="Gunung Pesagi" class="gunung1">
+                <img src="gunung/pesagi.jpg" alt="Gunung Pesagi" class="gunung1 zoom-effect">
                 <div class="text1">
-                    Gunung Pesagi
+                    <h2>Gunung Pesagi</h2>
                 </div>
             </section>
 
             <!-- Gunung  Tanggamus-->
             <section>
-                <img src="gunung/tanggamus.png" alt="Gunung Tanggamus" class="gunung2">
+                <img src="gunung/tanggamus.png" alt="Gunung Tanggamus" class="gunung2 zoom-effect">
                 <div class="text2">
-                    Gunung Tanggamus
+                    <h2>Gunung Tanggamus</h2>
                 </div>
             </section>
 
             <!-- Gunung Rajabasa -->
             <section>
-                <img src="gunung/rajabasa.jpg" alt="Gunung Rajabasa" class="gunung3">
+                <img src="gunung/rajabasa.jpg" alt="Gunung Rajabasa" class="gunung3 zoom-effect">
                 <div class="text3">
-                    Gunung Rajabasa
+                    <h2>Gunung Rajabasa</h2>
                 </div>
             </section>
 
