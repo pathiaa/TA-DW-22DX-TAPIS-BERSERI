@@ -1,0 +1,54 @@
+.gunung5 {
+    display: flex;
+    width: 100%;
+    transition: 2s;
+}
+
+.gunung5 img {
+    width: 100%;
+}
+
+.wrapper {
+    width: 640px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+#slide1:target ~ .gunung5 {
+    margin-left: 0;
+}
+
+#slide2:target ~ .gunung5 {
+    margin-left: -100%;
+}
+
+#slide3:target ~ .gunung5 {
+    margin-left: -200%;
+}
+
+.navigation a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: #E4DEBE;
+    font-size: 0;
+    border-radius: 50%;
+    margin: 5px;
+    transition: 1s;
+}
+
+.navigation a:hover{
+    background-color: #607274;
+}
+
+.navigation {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: -50px;
+}
