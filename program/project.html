@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut Icon" href="logo/logo mountain majesty.png" type="image/x-icon">
+    <title>Lampung's Mountain Majesty: Exploring Nature's Paradise</title>
+
+    <style>
+        
+
+        body{
+            margin: 0;
+            background-image: url('https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/12/Gunung-Anak-Krakatau.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; /*Gambar Background Nempel saat diScroll*/
+            backdrop-filter: blur(5px); /* Blur effect */
+        }
+        
+        header{
+            background-color: rgb(217, 242, 244);
+            min-height: 100px;
+            display: flex;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            z-index: 1;
+        }
+
+        .logo {
+        width: auto;
+        height: 100px;
+        margin: 15px;
+        }
+
+        h1 {
+            margin-left: 20px;
+            margin-top: 50px;
+            font-size: 30px;
+            text-align:justify;
+            /* text-transform: capitalize; */
+            
+        }
+        .gunung1 , .gunung2 , .gunung3 , .gunung4 , .gunung5{
+            width: 640px;
+            height: 360px;
+            display: flex;
+            margin: auto;
+            border-radius: 30px;
+        }
+
+        .text1, .text2 , .text3, .text4, .text5{
+            text-align: center;
+        }
+
+        /* Membuat Transisi Gambar Gunung */
+        .zoom-effect {
+            transition: transform 0.4s ease; /*Efek Transisi untuk perubahan transformasi*/
+        }
+
+        .zoom-effect:hover {
+            transform: scale(1.1); /*Skala gambar saat kursor mendekat(zoom)*/
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    <main>
+        <!-- area header -->
+        <header>
+            <!-- LOGO -->
+            <section class="area_logo">
+                <img src="logo/logo mountain majesty.png" alt="logo" class="logo">
+                
+            </section>
+            <section>
+                <h1>
+                    Lampung's Mountain Majesty: Exploring Nature's Paradise
+                </h1>
+            </section>
+            
+        </header>
+
+        <!-- area content-->
+        <section class="background">
+            <!-- Gunung Pesagi -->
+            <section>
+                <img src="gunung/pesagi.jpg" alt="Gunung Pesagi" class="gunung1 zoom-effect">
+                <div class="text1">
+                    <h2>Gunung Pesagi</h2>
+                </div>
+            </section>
+
+            <!-- Gunung  Tanggamus-->
+            <section>
+                <img src="gunung/tanggamus.png" alt="Gunung Tanggamus" class="gunung2 zoom-effect">
+                <div class="text2">
+                    <h2>Gunung Tanggamus</h2>
+                </div>
+            </section>
+
+            <!-- Gunung Rajabasa -->
+            <section>
+                <img src="gunung/rajabasa.jpg" alt="Gunung Rajabasa" class="gunung3 zoom-effect">
+                <div class="text3">
+                    <h2>Gunung Rajabasa</h2>
+                </div>
+            </section>
+
+            <!-- Gunung Seminung -->
+            <section>
+                <img src="gunung/seminung.jpeg" alt="Gunung Seminung" class="gunung4 zoom-effect">
+                <div class="text4">
+                    <h2>Gunung Seminung</h2>
+                </div>
+            </section>
+
+            <!-- Gunung Betung -->
+            <section>
+                <img src="gunung/betung.jpeg" alt="Gunung Betung" class="gunung5 zoom-effect">
+                <div class="text5">
+                    <h2>Gunung Betung</h2>
+                </div>
+            </section>
+        </section>
+    
+        <!-- area footer -->
+        <footer>
+
+        </footer>
+    </main>   
+</body>
+</html>
