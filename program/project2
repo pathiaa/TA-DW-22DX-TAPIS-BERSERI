@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut Icon" href="logo/logo mountain majesty.png" type="image/x-icon">
+    <title>Lampung's Mountain Majesty: Exploring Nature's Paradise</title>
+
+    <style>
+
+        body{
+            margin: 0;
+        }
+
+        header{
+            background-color: #3652AD;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+
+        .logo {
+        width: auto;
+        height: 60px;
+        margin: 15px;
+        }
+
+        .area_menu 
+        {
+            margin: 10px;
+            display: inline-block;
+        }
+        .menu
+        {
+            margin-left: 10px;
+            font: 1.2rem "Poppins";
+            color: white;
+            display: inline-block;
+        }
+
+        .gunung1 , .gunung2 , .gunung3 , .gunung4 , .gunung5{
+            width: 640px;
+            height: 360px;
+            display: flex;
+            margin: auto;
+            border-radius: 30px;
+        }
+
+        .text1, .text2 , .text3, .text4, .text5{
+            text-align: center;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    <main>
+        <!-- area header -->
+        <header>
+            <!-- LOGO -->
+            <div class="area_logo">
+                <img src="update logo.png" alt="logo" class="logo">
+            </div>
+            <!-- header (menu) -->
+            <nav>
+                <div class="area_menu">
+                    <a href="#" class="menu">Home</a>
+                    <a href="#" class="menu">Profil</a>
+                    <a href="#" class="menu">About Us</a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- area content-->
+        <section>
+            <!-- Gunung Pesagi -->
+            <section>
+                <img src="gunung/pesagi.jpg" alt="Gunung Pesagi" class="gunung1">
+                <div class="text1">
+                    <h1>Gunung Pesagi</h1>
+                    <p>Gunung Pesagi adalah gunung tak aktif salah satu dari 5 Gunung bersejarah yang ada di provinsi Lampung, Indonesia. Dari kelima gunung tersebut, Gunung Pesagi adalah gunung yang mempunyai puncak paling tertinggi yang ada di lemah Lampung (tanah Lampung). Ketinggian puncak dari Gunung Pesagi ini memiliki dua puncak tertinggi, puncak tertinggi pertama disebut Pesagi lunik (kecil) sedangkan puncak tertinggi kedua adalah Pesagi balak (besar), ketinggian dari pesagi lunik (kecil) 2.262 MDPL untuk ketinggian Pesagi balak (besar) mencapai 3.221 MDPL, Gunung ini merupakan titik tertinggi di Lampung, Di kaki gunungnini dipercaya sebagai lokasi Kebesaran tertinggi piramida kesultanan dengan sebutan lain Kepaksian yang merupakan pangkal keturunan Suku Lampung.</p>
+                </div>
+            </section>
+
+            <!-- Gunung  Tanggamus-->
+            <section>
+                <img src="gunung/tanggamus.png" alt="Gunung Tanggamus" class="gunung2">
+                <div class="text2">
+                    <h1>Gunung Tanggamus</h1>
+                    <p>Gunung Tanggamus adalah sebuah gunung yang terletak di Kecamatan Kota Agung, Kabupaten Tanggamus, Provinsi Lampung, Indonesia. Gunung ini berada di sebelah timur laut dari Kota Agung dengan jarak sekitar 10 km. Gunung ini adalah gunung tertinggi kedua di Provinsi Lampung, setelah Gunung Pesagi. Gunung ini sering didaki oleh komunitas pecinta alam seperti Mahasiswa Pencinta Alam Universitas Lampung (Unila) dan lain sebagainya atau para pendatang dari luar Lampung.</p>
+                </div>
+            </section>
+
+            <!-- Gunung Rajabasa -->
+            <section>
+                <img src="gunung/rajabasa.jpg" alt="Gunung Rajabasa" class="gunung3">
+                <div class="text3">
+                    <h1>Gunung Rajabasa</h1>
+                    <p>Gunung Rajabasa adalah gunung berapi dengan kerucut vulkanik yang terdapat di Selat Sunda di bagian tenggara dari Sumatra, terletak di Kabupaten Lampung Selatan, Provinsi Lampung. Memiliki puncak kawah dengan lebar 500x700 meter dengan bagian daratan berawa, gunung berapi diselimuti dengan berbagai vegetasi. Walaupun aktivitas fumarol terjadi di bagian kaki dan lereng gunung. Terjadi kenaikan aktivitas yang dilaporkan terjadi pada April 1863 dan Mei 1892 serta tidak diketahui kapan terjadi erupsi. Gunung Rajabasa kurang lebih berjarak 5 km dari Kota Kalianda ke arah selatan, terletak tidak jauh dari pantai sehingga gunung ini bisa terlihat dari laut pada penyeberangan Pelabuhan Merak - Pelabuhan Bakauheni. Dari sisi kehutanan, masuk wilayah kerja Kesatuan Pengelolaan Hutan Lindung (KPHL) Unit XIII Lampung. Atau UPTD KPH XIII Gunung Rajabasa – Way Pisang – Batu Serampok. Di bawah kendali Dinas Kehutanan Provinsi Lampung. Dilihat dari topografi, Gunung Rajabasa memiliki dataran rendah, dataran rendah pedalaman, perbukitan rendah, perbukitan dan perbukitan tinggi. Sedangkan lerengnya memiliki area datar, miring, curam dan sangat curam.</p>
+                </div>
+            </section>
+
+            <!-- Gunung Seminung -->
+            <section>
+                <img src="gunung/seminung.jpeg" alt="Gunung Seminung" class="gunung4">
+                <div class="text4">
+                    <h1>Gunung Seminung</h1>
+                    <p>Gunung Seminung adalah gunung yang terletak di perbatasan Kecamatan Sukau, Kabupaten Lampung Barat, Provinsi Lampung, dengan Kecamatan Banding Agung, Kabupaten Ogan Komering Ulu Selatan, Provinsi Sumatera Selatan. Sama seperti Gunung Merapi, gunung ini merupakan "gunung antar-provinsi". Gunung ini berada di sebelah barat laut dari Kota Liwa dengan jarak sekitar 25 km. Kaki gunung ini berada di sebuah danau, yaitu Danau Ranau, yang juga merupakan sebuah "danau antar propinsi". Gunung Seminung ini memiliki pemandangan yang mempesona jika di lihat dari atas gunung tersebut.</p>
+                </div>
+            </section>
+
+            <!-- Gunung Betung -->
+            <section>
+                <img src="gunung/Gunung Betung.jpg" alt="Gunung Betung" class="gunung5">
+                <div class="text5">
+                    <h1>Gunung Betung</h1>
+                    <p>Gunung berlokasi dekat Kota Bandar Lampung ini memiliki ketinggian 1.240 mdpl dan menjadi gunung yang cukup populer bagi para pendaki. Jalur pendakiannya pun tidak jauh berbeda dengan Gunung Rajabasa, mengingat tingginya pun hampir sama. Hanya saja iklim di Gunung Betung lebih lembab dan banyak binatang pacet serta sedikit licin jika hujan. Di gunung ini terdapat camp satu dan camp dua yang letaknya berdekatan.Untuk mencapai puncak, durasinya sekitar dua sampai tiga jam. Tiket masuk di Gunung Betung senilai Rp10 ribu per orang dan biaya parkir Rp5 ribu.</p>
+                </div>
+            </section>
+        </section>
+    
+        <!-- area footer -->
+        <footer>
+
+        </footer>
+    </main>   
+</body>
+</html>
