@@ -7,9 +7,9 @@ html, body {
 header{
     width: 100%;
     height: 100vh;
-    background: #607274;
+    background-image: url('https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/12/Gunung-Anak-Krakatau.jpg');
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; 
 }
 
 .content {
