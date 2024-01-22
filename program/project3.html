@@ -11,23 +11,27 @@
 <body>
     <main>
         <!-- area header -->
-        <header>
-            <!-- LOGO -->
-            <div class="area_logo">
-                <img src="logo.png" alt="logo" class="logo">
-            </div>
-            <!-- header (menu) -->
-            <nav>
-                <div class="area_menu">
-                    <a href="#" class="menu">Home</a>
-                    <a href="#" class="menu">Profile</a>
-                    <a href="#" class="menu">About Us</a>
-                </div>
-            </nav>
-        </header>
 
+        <div class="top">
+            <header>      
+                <nav>
+                    <div class="logo">
+                        <img src="" alt="LOGO">
+                    </div>
+
+                    <div class="menu">
+                        <ul>
+                            <li><a href="">HOME</a></li>
+                            <li><a href="">PROFILE</a></li>
+                            <li><a href="">ABOUT US</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        
         <!-- area content-->
-        <section>
+        <section class="content">
             <!-- judul -->
                 <h1 class="judul">Lampung's Mountain Majesty: Exploring Nature's Paradise</h1>
 
@@ -102,5 +106,18 @@
             
         </footer>
     </main>   
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+    <script>
+        $(window).scroll(function(){
+            if($(window).scrollTop()){
+                $("nav").addClass("black");
+            }
+            else{
+                $("nav").removeClass("black");
+            }
+        });
+    </script>
 </body>
 </html>
