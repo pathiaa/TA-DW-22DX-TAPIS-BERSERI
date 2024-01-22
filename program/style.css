@@ -33,6 +33,7 @@ header{
     color: white;
     font-weight: bold;
     font-size: 24px;
+    background-attachment: fixed;
 }
 
 nav {
@@ -154,4 +155,13 @@ nav ul li a {
     margin: 15px 0;
     display: flex;
     margin: auto;
+}
+
+ /* Membuat Transisi Gambar Gunung */
+ .zoom-effect {
+    transition: transform 0.4s ease; /*Efek Transisi untuk perubahan transformasi*/
+}
+
+.zoom-effect:hover {
+    transform: scale(1.1); /*Skala gambar saat kursor mendekat(zoom)*/
 }
