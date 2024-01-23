@@ -23,17 +23,18 @@ header{
 .logo img {
     position: fixed;
     width: auto;
-    height: 50px;
+    height: 30px;
 }
 
 .logo {
     position: fixed;
     float: left;
-    margin: 16px 36px;
+    /* margin: 16px 36px; */
+    margin: 5px;
     color: white;
     font-weight: bold;
     font-size: 24px;
-    background-attachment: fixed;
+   
 }
 
 nav {
@@ -52,7 +53,7 @@ nav ul {
 }
 
 nav.black ul {
-    background: black;
+    background:rgb(25, 2, 151);
     margin: 0;
 }
 
